@@ -5,7 +5,7 @@ A Linux implementation of the [`speech_to_text`](https://github.com/csdcorp/spee
 Linux does not ship a system speech recognition engine, so this package performs recognition
 **offline** using the open-source [Vosk](https://alphacephei.com/vosk/) toolkit. Microphone audio is captured through PulseAudio as 16 kHz mono PCM and streamed to Vosk, which produces partial and final results in real time. It means we do not need to use any cloud provider, or expensive AI-based compute.
 
-Vosk is licensed by [Apache 2.0](github.com/alphacep/vosk-api/blob/master/COPYING).
+Vosk is licensed by [Apache 2.0](https://github.com/alphacep/vosk-api/blob/master/COPYING).
 
 ## Usage
 
